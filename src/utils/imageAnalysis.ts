@@ -137,24 +137,24 @@ export const extractColors = (
       };
   }
   
-  // const COMMON_OBJECTS = [
-  //     "Person", "Car", "Tree", "Building", "Sky", "Cloud", "Road", "Grass",
-  //     "Water", "Mountain", "Animal", "Bird", "Dog", "Cat", "Flower", "Sign",
-  //     "Table", "Chair", "Phone", "Computer", "Book", "Bottle", "Cup", "Plate"
-  // ];
+  const COMMON_OBJECTS = [
+      "Person", "Car", "Tree", "Building", "Sky", "Cloud", "Road", "Grass",
+      "Water", "Mountain", "Animal", "Bird", "Dog", "Cat", "Flower", "Sign",
+      "Table", "Chair", "Phone", "Computer", "Book", "Bottle", "Cup", "Plate"
+  ];
   
-  // const COLOR_OBJECT_MAP: { [key: string]: string[] } = {
-  //     red: ["Apple", "Fire hydrant", "Stop sign", "Strawberry"],
-  //     green: ["Leaf", "Grass", "Tree", "Cucumber"],
-  //     blue: ["Sky", "Water", "Blueberry", "Jeans"],
-  //     yellow: ["Banana", "Lemon", "Sunflower", "Taxi"],
-  //     orange: ["Orange", "Carrot", "Pumpkin", "Basketball"],
-  //     purple: ["Eggplant", "Grape", "Lavender", "Amethyst"],
-  //     pink: ["Flamingo", "Cherry blossom", "Bubblegum", "Pig"],
-  //     brown: ["Wood", "Soil", "Coffee", "Bear"],
-  //     white: ["Cloud", "Snow", "Paper", "Egg"],
-  //     black: ["Night sky", "Tire", "Panther", "Coal"]
-  // };
+  const COLOR_OBJECT_MAP: { [key: string]: string[] } = {
+      red: ["Apple", "Fire hydrant", "Stop sign", "Strawberry"],
+      green: ["Leaf", "Grass", "Tree", "Cucumber"],
+      blue: ["Sky", "Water", "Blueberry", "Jeans"],
+      yellow: ["Banana", "Lemon", "Sunflower", "Taxi"],
+      orange: ["Orange", "Carrot", "Pumpkin", "Basketball"],
+      purple: ["Eggplant", "Grape", "Lavender", "Amethyst"],
+      pink: ["Flamingo", "Cherry blossom", "Bubblegum", "Pig"],
+      brown: ["Wood", "Soil", "Coffee", "Bear"],
+      white: ["Cloud", "Snow", "Paper", "Egg"],
+      black: ["Night sky", "Tire", "Panther", "Coal"]
+  };
   
   function getColorCategory(r: number, g: number, b: number): string {
       const max = Math.max(r, g, b);
